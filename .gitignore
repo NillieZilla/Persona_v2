@@ -1,0 +1,26 @@
+# deps
+node_modules
+**/node_modules/
+.pnp/
+.pnpm-debug.log
+
+# builds
+**/dist/
+**/build/
+**/coverage/
+**/*.tsbuildinfo
+.turbo/
+turbo/
+# keep config if you want
+!.turbo/config.json
+
+# env
+.env
+.env.*
+.env.*.local
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
